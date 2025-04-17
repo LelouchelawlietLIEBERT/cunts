@@ -415,7 +415,7 @@ a:hover{
 
 .about{
   height: 100vh;
-  background-color: black;
+  background: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -424,6 +424,7 @@ a:hover{
   position: absolute;
   top: 0;
   right: -10%;
+  z-index: -1;
 }
 .about-text{
   position: relative;
